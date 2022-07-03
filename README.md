@@ -7,14 +7,14 @@
 $ npm install
 
 # serve with hot reload at localhost:3000
+$ docker-compose up -d
 $ npm run dev
 
 # build for production and launch server
+$ docker-compose up -d
 $ npm run build
 $ npm run start
 
-# generate static project
-$ npm run generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
