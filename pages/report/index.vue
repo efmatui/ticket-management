@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Nav/>
     <div class="grid gap-3 grid-cols-4">
       <div>
         <v-select :options="['A', 'B', 'C', 'D']" @input="setSelected"/>
